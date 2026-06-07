@@ -1,0 +1,6 @@
+{
+  "name": "Flygram",
+  "description": "An Instagram-themed creator workspace featuring an AI Creative Copilot for caption generation, a content performance analytics tracker, interactive fan inbox, and Room DB saved drafts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

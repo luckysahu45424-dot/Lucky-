@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Diagonal Brand Sunset Gradient spanning whole background -->
+    <path android:pathData="M0,0 h108 v108 h-108 z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="10"
+                android:startY="10"
+                android:endX="98"
+                android:endY="98"
+                android:type="linear">
+                <item
+                    android:offset="0.0"
+                    android:color="#833AB4" /> <!-- Purple -->
+                <item
+                    android:offset="0.5"
+                    android:color="#E1306C" /> <!-- Pink / Fuchsia -->
+                <item
+                    android:offset="1.0"
+                    android:color="#FCAF45" /> <!-- Sunshine Gold -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subdued aesthetic design overlays (subtle technical design lines) -->
+    <path
+        android:strokeWidth="0.5"
+        android:strokeColor="#1FFFFFFF"
+        android:pathData="M 0,27 L 108,27 M 0,54 L 108,54 M 0,81 L 108,81 M 27,0 L 27,108 M 54,0 L 54,108 M 81,0 L 81,108" />
+
+</vector>
